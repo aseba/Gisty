@@ -4,6 +4,8 @@
 
 A small command line that lets you create small gists with text for things to remember
 
+Personally, I used it to save commands I use a lot but can't remember
+
 Examples:
 
 ```
