@@ -13,8 +13,13 @@ gisty new git	# Creates a new gisty called git
 gisty edit git	# Edits (or creates) a gisty called git
 ```
 
-Each gisty is actually a file saved at `~/.config/gisty/`
+- Each gisty is actually a file saved at `~/.config/gisty/`
 
-For editing the files, right now it executes vim. I need to fix this to something more portable (or maybe to execute the $editor)
+- For editing the files, right now it executes vim. I need to fix this to something more portable (or maybe to execute the $editor)
 
-I've only tested Gisty on OSX
+- I've only tested Gisty on OSX
+
+## Installation
+In order to install this you can just create a symlink to the gisty script
+
+```sudo ln -s `pwd`/gisty /usr/bin/gisty```
