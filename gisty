@@ -9,7 +9,7 @@ class Gisty(object):
 			os.makedirs(self.home)
 
 	def list(self):
-		print [filename.split('.')[0] for filename in os.listdir(self.home)]
+		print [filename for filename in os.listdir(self.home)]
 
 	def read(self, name):
 		filename = self.home + "/" + name
