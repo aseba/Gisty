@@ -1,5 +1,6 @@
 #!/usr/bin/python
 import os, sys
+from subprocess import call
 
 class Gisty(object):
 	def __init__(self):
@@ -14,18 +15,19 @@ class Gisty(object):
 		print [filename.split('.')[0] for filename in os.listdir(self.home)]
 
 	def read(self, name):
-		filename = self.home + "/" + name + '.md'
+		filename = self.home + "/" + name
 		if os.path.isfile(filename):
 			for line in open(filename, 'r'):
 				print line
 		else:
 			print u"File does not exist. Maybe you want to create it? try 'gisty new %s'" % (name)
 
+
 	def create(self, name):
-		filename = self.home + "/" + name + '.md'
+		filename = self.home + "/" + name
 		if not os.path.isfile(filename):
 			file(filename, 'w').close() 
-		os.system('open ' + filename)
+		call(['open', filename])
 
 
 if __name__ == '__main__':
