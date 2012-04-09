@@ -26,7 +26,7 @@ class Gisty(object):
 		filename = self.home + "/" + name
 		if not os.path.isfile(filename):
 			file(filename, 'w').close() 
-		call(['open', filename])
+		call(['vim', filename])
 
 
 if __name__ == '__main__':
