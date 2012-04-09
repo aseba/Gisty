@@ -15,6 +15,6 @@ gisty edit git	# Edits (or creates) a gisty called git
 
 Each gisty is actually a file saved at `~/.config/gisty/`
 
-For editing the files, right now it executes the `open` command in OSX. I need to fix this to something more portable (or maybe to execute the $editor)
+For editing the files, right now it executes vim. I need to fix this to something more portable (or maybe to execute the $editor)
 
 I've only tested Gisty on OSX
