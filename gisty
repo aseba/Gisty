@@ -17,8 +17,7 @@ class Gisty(object):
 	def read(self, name):
 		filename = self.home + "/" + name
 		if os.path.isfile(filename):
-			for line in open(filename, 'r'):
-				print line
+			print file(filename, 'r').read()
 		else:
 			print u"File does not exist. Maybe you want to create it? try 'gisty new %s'" % (name)
 
