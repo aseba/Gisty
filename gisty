@@ -30,9 +30,6 @@ if __name__ == '__main__':
 		if(params[0] in ['new', 'edit']):
 			Gisty().create(params[1])
 	elif(len(params) == 1):
-		if(params[0] in 'list'):
-			Gisty().list()
-		else:
-			Gisty().read(params[0])
+		Gisty().read(params[0])
 	else:
 		Gisty().list()

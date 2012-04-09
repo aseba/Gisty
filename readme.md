@@ -9,7 +9,6 @@ Personally, I use it to save commands I use a lot but can't remember
 ## Usage
 
 ```
-gisty list		# Lists all your gistys
 gisty git		# Prints out your git gisty
 gisty new git	# Creates a new gisty called git
 gisty edit git	# Edits (or creates) a gisty called git
