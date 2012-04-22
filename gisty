@@ -9,7 +9,7 @@ class Gisty(object):
 			os.makedirs(self.home)
 
 	def list(self):
-		print [filename for filename in os.listdir(self.home)]
+		print [filename for filename in os.listdir(self.home) if filename[0] != '.']
 
 	def read(self, name):
 		filename = self.home + "/" + name
@@ -23,6 +23,7 @@ class Gisty(object):
 		if not os.path.isfile(filename):
 			file(filename, 'w').close() 
 		call(['vim', filename])
+
 
 if __name__ == '__main__':
 	params = sys.argv[1:]
