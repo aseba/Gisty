@@ -4,7 +4,7 @@ from subprocess import call
 
 class Gisty(object):
 	def __init__(self):
-		self.home = os.getenv("HOME")+"/.config/gisty"
+		self.home = os.getenv("HOME")+"/.gisty"
 		if not os.path.exists(self.home):
 			os.makedirs(self.home)
 
