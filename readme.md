@@ -20,7 +20,7 @@ In order to install this you can just create a symlink to the gisty script
 ```sudo ln -s `pwd`/gisty /usr/bin/gisty```
 
 ## Notes
-- Each gisty is actually a file saved at `~/.config/gisty/`
+- Each gisty is actually a file saved at `.gisty/`
 
 - For editing the files, right now it executes vim
 
@@ -29,3 +29,4 @@ In order to install this you can just create a symlink to the gisty script
 ## TODO
 - Upload gists to gist.github.com
 - Change editor to something more portable or to using $editor
+- Add suport for version control
