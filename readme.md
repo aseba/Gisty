@@ -19,6 +19,10 @@ In order to install this you can just create a symlink to the gisty script
 
 ```sudo ln -s `pwd`/gisty /usr/bin/gisty```
 
+or just do an alias in your bash_profile | bashrc | whatever
+
+```alias gisty='/path/to/gisty'```
+
 ## Notes
 - Each gisty is actually a file saved at `.gisty/`
 
