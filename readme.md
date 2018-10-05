@@ -1,8 +1,6 @@
 # Gisty
 
-*Gisty* is a clone of [sheet](https://github.com/oscardelben/sheet) made in pure python
-
-A small command line that lets you create small gists with text for things to remember
+*Gisty* is a clone of [sheet](https://github.com/oscardelben/sheet) made in pure python. A small command line that lets you create small gists with text for things to remember
 
 Personally, I use it to save commands I use a lot but can't remember, or even as postits on the terminal
 
