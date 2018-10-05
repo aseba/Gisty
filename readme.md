@@ -1,4 +1,4 @@
-#Gisty
+# Gisty
 
 *Gisty* is a clone of [sheet](https://github.com/oscardelben/sheet) made in pure python
 
@@ -9,10 +9,10 @@ Personally, I use it to save commands I use a lot but can't remember, or even as
 ## Usage
 
 ```
-gisty			# Lists all your gistys
-gisty new git	# Creates a new gisty called git
-gisty edit git	# Edits (or creates) a gisty called git
-gisty git		# Prints out your git gisty
+gisty             # Lists all your gistys
+gisty new git     # Creates a new gisty called git
+gisty edit git    # Edits (or creates) a gisty called git
+gisty git         # Prints out your git gisty
 ```
 ## Installation
 In order to install this you can just create a symlink to the gisty script
